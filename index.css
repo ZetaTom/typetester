@@ -1,0 +1,36 @@
+html {
+    font-family: system-ui, sans-serif;
+    color: #F4F4F6;
+    background-color: #141414;
+	scroll-behavior: smooth;
+}
+.container {
+	max-width: 60em;
+	padding: 0.5em 1em;
+	margin-right: auto;
+	margin-left: auto;
+}
+.prefs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    font-size: 1.3em;
+}
+pre {
+    font-weight: 400;
+    font-size: 12pt;
+    padding: 0 1rem;
+    margin: 0;
+    overflow-x: scroll;
+    font-variant-ligatures: none;
+}
+#fsslider {
+    flex: 1;
+}
+#fsdisp {
+    min-width: 3.5rem;
+    text-align: right;
+}
+h2 {
+    border-bottom: 1px solid #F4F4F6;
+}
